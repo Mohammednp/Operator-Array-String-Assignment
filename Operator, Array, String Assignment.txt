@@ -1,0 +1,55 @@
+1. List the Operator in Java ?
+Ans: 1) Aithmetic Operators
+     2) Relational Operators
+     3) Logical Operators
+     4) Assignment Operators
+     5) Unary Operators
+     6) Bitwise Operators
+
+2. Explain about Increment and Decrement operators and give an example
+Ans: Increment and Decrement Operator in Java are used to increase o decrease the value by 
+1. For example, Incremental operator ++ is useful to increase the existing variable value by 1 (i = i + 1). Moreover, the decrement
+operator – – is useful to decrease o subtract the current value by 1 (i = i – 1). 
+The syntax of both increment and decrement operators in Java Programming to prefix o postfix is
+Increment Operators ++x or x++
+Decrement Operators --x or x-
+
+3. What are the Conditional Operators in Java ?
+Ans: They are used when a condition comprises more than one boolean expression. For instance, if we want to print a number only if it is greater than 2 and less than 5, then he will use conditional operators to combine the 2 expressions. We have 3 types of conditional operators  logical and, logical or and ternary operator.
+
+4. What are te types of operators based on the number of operands ?
+Ans: 1) Unary Operators
+     2) Binary Operators
+     3) Ternary Operators
+
+5. What are the conditional Statements and use of conditional statements in Java ?
+Ans: 1) if -- to specify a block of code to be executed, if a specified condition is true.
+     2) else -- to specify a block of code to be executed, if the same condition is false.
+     3) else if -- to specify a new condition to test, if the first condition is false
+     4) switch -- to specify many alternative blocks of code to be executed.
+
+6. What is the syntax of if else statement ?
+Ans: if(cndn){
+	//block of code
+	}else if(cndn2){
+	//block of code
+	}else{
+	//block of code
+	}
+
+7. What are the 3 types of iterativ statements in Java ?
+Ans: 1) for loop 2) while loop and 3) do-while loop
+
+8. What do you mean by an Array ?
+Ans: It refers to index collection of fixed no of homogeneous data elements. Single variable holding multiple values which improves readability of the program.
+
+9. How to create an Array ?
+Ans: int[] a=new int[5];
+
+10. State the difference between StringBuffer and StringBuilder in Java.
+Ans: StringBuffer -- 1) All Methods are synchronized hence thread safe.
+		     2) Not possible to call methods from two threads simultaneously.
+		     3) StringBuffer sb=new StringBuffer();
+    StringBuilder -- 1) All Methods are not synchronized hence not thread safe.
+		     2) Possbile to call methods from two threads simultaneously.
+                     3) StringBuilder sb= new StringBuilder();
